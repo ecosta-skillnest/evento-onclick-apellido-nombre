@@ -1,0 +1,105 @@
+/* -- Estilos generales -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -- Estilos para el cuerpo -- */
+body {
+    /* Establece la fuente principal del cuerpo */
+    font-family: "Roboto", sans-serif;
+}
+
+/* -- Estilos para la barra de navegación -- */
+.navbar {
+    /* Establece el color de fondo de la barra de navegación */
+    background-color: #333;
+}
+
+.nav-container {
+    /* Establece el ancho del contenedor de la barra de navegación */
+    width: 80%;
+    /* Centra el contenedor horizontalmente */
+    margin: 0 auto;
+    /* Establece el padding vertical del contenedor de la barra de navegación */
+    padding: 15px 0;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h1 {
+    /* Establece el color del título de la barra de navegación */
+    color: #fff;
+    /* Establece el tamaño de fuente del título de la barra de navegación */
+    font-size: 24px;
+    /* Establece el espaciado entre letras del título de la barra de navegación */
+    letter-spacing: 2px;
+}
+
+.nav-container input {
+    /* Establece el padding del campo de búsqueda */
+    padding: 4px 10px;
+    /* Establece el tamaño de fuente del campo de búsqueda */
+    font-size: 14px;
+    /* Establece el ancho del campo de búsqueda */
+    width: 400px;
+}
+
+/* -- Estilos para el contenedor principal -- */
+.contenedor {
+    /* Establece el ancho del contenedor principal */
+    width: 80%;
+    /* Centra el contenedor principal horizontalmente */
+    margin: 40px auto;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.col-2 {
+    /* Establece la proporción de la columna 2 */
+    flex: 2;
+}
+
+.col-1 {
+    /* Establece la proporción de la columna 1 */
+    flex: 1;
+}
+
+/* -- Estilos para las tarjetas -- */
+.tarjeta {
+    /* Establece el color de fondo de las tarjetas */
+    background-color: #f4f4f4;
+    /* Establece el borde de las tarjetas */
+    border: 2px solid #000;
+    /* Establece el margen inferior de las tarjetas */
+    margin-bottom: 20px;
+    /* Establece el padding de las tarjetas */
+    padding: 20px;
+}
+
+.tarjeta h2 {
+    /* Establece el margen inferior del título de las tarjetas */
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    /* Establece el margen inferior del párrafo de las tarjetas */
+    margin-bottom: 20px;
+}
+
+/* -- Estilos para los botones -- */
+.btn {
+    /* Establece el color de fondo de los botones */
+    background-color: #ff6347;
+    /* Establece el color del texto de los botones */
+    color: #fff;
+    /* Establece el borde de los botones */
+    border: 2px solid #000;
+    /* Establece el padding de los botones */
+    padding: 5px 20px;
+}

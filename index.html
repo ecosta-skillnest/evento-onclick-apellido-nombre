@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Autora del documento -->
+    <meta name="author" content="tu@correo.com">
+    <!-- Descripción del documento -->
+    <meta name="description" content="Página de ejemplo para demostrar eventos onclick en JS">
+    <!-- Título del documento -->
+    <title>Evento onclick</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- Google Fonts (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <!-- Contenedor de la barra de navegación -->
+        <div class="nav-container">
+            <!-- Título de la barra de navegación -->
+            <h1>Evento onclick</h1>
+            <!-- Formulario de búsqueda -->
+            <form action="" method="">
+                <!-- Campo de búsqueda -->
+                <input type="text" id="buscar" name="buscar" placeholder="Buscar">
+            </form>
+            <!-- Botón de iniciar sesión -->
+            <button class="btn" id="nav-boton" onclick="cambiarTexto()">Iniciar sesión</button>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="contenedor">
+        <!-- Bloque columna -->
+        <div class="col-2">
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta">
+                <!-- Título de la tarjeta 1 -->
+                <h2>Título de la tarjeta 1</h2>
+                <!-- Párrafo de la tarjeta 1 -->
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam assumenda maiores quae. Recusandae eos
+                    inventore, ullam harum non iste temporibus mollitia eaque magnam quisquam reprehenderit explicabo
+                    cupiditate dolor officiis corporis.
+                </p>
+                <!-- Botón Me gusta de la tarjeta 1 -->
+                <button class="btn" onclick="mostrarMensaje()">Me gusta</button>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta" id="tarjetita">
+                <!-- Título de la tarjeta 2 -->
+                <h2>Título de la tarjeta 2</h2>
+                <!-- Párrafo de la tarjeta 2 -->
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam assumenda maiores quae. Recusandae eos
+                    inventore, ullam harum non iste temporibus mollitia eaque magnam quisquam reprehenderit explicabo
+                    cupiditate dolor officiis corporis.
+                </p>
+                <!-- Botón Eliminar tarjeta de la tarjeta 2 -->
+                <button class="btn" onclick="eliminarTarjeta()">Eliminar tarjeta</button>
+            </div>
+        </div>
+
+        <!-- Bloque columna -->
+        <div class="col-1">
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta">
+                <!-- Título de la tarjeta 3 -->
+                <h2>Título de la tarjeta 3</h2>
+                <!-- Párrafo de la tarjeta 3 -->
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam assumenda maiores quae. Recusandae eos
+                    inventore, ullam harum non iste temporibus mollitia eaque magnam quisquam reprehenderit explicabo
+                    cupiditate dolor officiis corporis.
+                </p>
+                <!-- Botón Agregar definición de la tarjeta 3 -->
+                <button class="btn" onclick="eliminarBoton()" id="botoncito">Agregar definción</button>
+            </div>
+        </div>
+    </main>
+    <!-- Script JS -->
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
