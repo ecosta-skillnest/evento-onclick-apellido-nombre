@@ -29,3 +29,18 @@ function cambiarTexto() {
     // Cambiar el texto del botón
     boton.textContent = "Cerrar sesión";
 }
+
+// Función para incrementar el contador de "Me gusta"
+function darMeGusta() {
+    // 1. Seleccionamos la etiqueta "span" por su ID y la guardamos en una variable
+    let etiquetaSpan = document.querySelector("#numerito");
+
+    // 2. Obtenemos el valor numérico que contiene esa etiqueta "span" y lo convertimos a tipo número
+    let valorNumero = parseInt(etiquetaSpan.textContent);
+
+    // 3. Aumentamos el valor de ese número en 1 (+1)
+    let nuevoValor = valorNumero + 1;
+
+    // 4. Reasignamos el nuevo valor a la etiqueta "span" para que se actualice en la página
+    etiquetaSpan.textContent = nuevoValor;
+}
